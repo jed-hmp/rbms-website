@@ -1,0 +1,232 @@
+#homePage {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #D6D6CA;
+}
+
+.homeTitle {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 25vw;
+    display: block;
+    text-align: center;
+}
+.homeTitle p:nth-child(1) {
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0;
+}
+.homeTitle p:nth-child(2) {
+    font-size: 1vw;
+}
+
+.homeTitle #LM {
+    width: 10vw;
+    height: 4vh;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: #355E3B;
+    color: white;
+    border-radius: 7px;
+}
+
+
+.features {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    text-align: center;
+    width: fit-content;
+    display: flex;
+}
+.features .feat .fTitle {
+    font-size: 130%;
+    margin: 0;
+    font-weight: bold;
+    margin: 0 90px
+}
+
+.features .feat #lock {
+    width: 20%;
+    height: auto;
+}
+.features .feat #alarm {
+    width: 22.5%;
+    height: auto;
+}
+.features .feat #locate {
+    width: 17%;
+    height: auto;
+}
+.features .feat .fDesc {
+    font-size: 120%;
+    font-weight: 350;
+}
+
+#hBike {
+    position: absolute;
+    width: 45vw;
+    height: auto;
+    bottom: 15%;
+    right: 15%;
+    z-index: 999;
+}
+
+.dlPad {
+    position: absolute;
+    right: 0;
+    background-color: #5F8575;
+    width: 28vw;
+    height: 100vh;
+    border-radius: 20px 0 0 20px;
+}
+.dlPad .dlButtonCon{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+    background-color: #355E3B;
+}
+.dlPad .dlButtonCon #btnDL{
+    appearance: none;
+    outline: none;
+    border: none;
+    display: block;
+    margin: auto;
+    padding-top: 4%;
+    width: 100%;
+    background-color: #355E3B;
+    border-radius: 20px 20px 0 0;
+    color: white;
+}
+.dlPad .dlButtonCon #btnDL p:nth-child(1) {
+    font-size: 120%;
+    margin: auto;
+}
+.dlPad .dlButtonCon #btnDL p:nth-child(2) {
+    font-size: 100%;
+    margin: auto;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .homeTitle {
+        position: absolute;
+        top: 5%;
+        left: 22%;
+        width: 60vw;
+        display: block;
+        text-align: center;
+   
+    }
+    .homeTitle p:nth-child(1) {
+        font-size: 15vw;
+        font-weight: bold;
+        margin: 0;
+        
+        
+    }
+    .homeTitle p:nth-child(2) {
+        font-size: 5vw;
+        
+    }
+    
+    .homeTitle #LM {
+        width: 40vw;
+        height: 4vh;
+        appearance: none;
+        border: none;
+        outline: none;
+        background-color: #355E3B;
+        color: white;
+        border-radius: 7px;
+        
+    }
+
+    .features {
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+        text-align: center;
+        width: fit-content;
+        display: flex;
+
+       
+    }
+    .features .feat .fTitle {
+        font-size: 90%;
+        margin: 0;
+        font-weight: bold;
+        margin: 0 10px;
+      
+      
+    }
+    
+    .features .feat #lock {
+        width:15%;
+        
+        height: 30%;
+    }
+    .features .feat #alarm {
+        width: 17.5%;
+        height: auto;
+    }
+    .features .feat #locate {
+        width: 12%;
+        height: auto;
+    }
+    .features .feat .fDesc {
+        font-size: 60%;
+        font-weight: 350;
+    }
+
+    #hBike {
+        position: absolute;
+        width: 70vw;
+        height: auto;
+        bottom: 25%;
+        left: 15%;
+    }
+
+    .dlPad {
+        position: absolute;
+        bottom: 12%;
+        left: 15%;
+        background-color: #5F8575;
+        width: 75vw;
+        height: 10vh;
+        border-radius: 10px;
+      
+    }
+    .dlPad .dlButtonCon{
+        display: block;
+        margin: auto;
+        background-color: #355E3B;
+        top:15%;;
+    }
+    .dlPad .dlButtonCon #btnDL{
+        appearance: none;
+        outline: none;
+        border: none;
+        display: block;
+        margin: auto;
+        margin-top: 7%;
+        background-color: #355E3B;
+        color: white;
+    }
+    .dlPad .dlButtonCon #btnDL p:nth-child(1) {
+        font-size: 100%;
+        margin: auto;
+    }
+    .dlPad .dlButtonCon #btnDL p:nth-child(2) {
+        font-size: 80%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,76 @@
+.bike-showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 1000px; /* Keep this or adjust as needed */
+    margin: 0 auto;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.bike-showcase img {
+    width: 55%; /* Set a fixed width for images */
+    height: 10%; /* Maintain aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    filter: drop-shadow(0 15px 1px rgba(2, 10, 4, 0.5)); /* Shadow effect */
+    transform: none; /* Reset any transform effects */
+    transition: none; /* Remove transitions */
+}
+
+
+.bike-info {
+    width: 41%; /* Adjusted width for bike info */
+    text-align: left;
+    margin-left: 10;
+    
+}
+
+.bike-info h1 {
+    font-size: 2.0rem; /* Main heading size */
+    margin: 0;
+}
+
+.bike-info h2 {
+    font-size: 1.5rem; /* Subheading size */
+    color: gray; /* Color for the subheading */
+    margin-top: 10px; /* Space above the subheading */
+    margin-left: -200px;
+}
+
+.bike-info p {
+    margin-top: 20px; /* Space above the paragraph */
+    line-height: 1.6; /* Line height for better readability */
+    margin-left: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .bike-showcase {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .bike-showcase img,
+    .bike-info {
+        width: 100%; /* Full width for smaller screens */
+        text-align: center; /* Center text for bike info */
+    }
+
+    .bike-info {
+        width: 100%; /* Ensure bike info takes full width */
+    }
+
+    .bike-info h1 {
+        font-size: 2rem; /* Smaller heading size for mobile */
+    }
+
+    .bike-info h2 {
+        font-size: 1.25rem; /* Smaller subheading size for mobile */
+    }
+
+    .bike-info p {
+        margin-top: 15px; /* Adjust paragraph margin for mobile */
+    }
+}

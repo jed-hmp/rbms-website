@@ -1,0 +1,184 @@
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #D6D6CA;
+    font-family: Arial, sans-serif;
+    
+    
+  }
+  
+  .faq-left {
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  
+  .faq-right {
+    width: 30%;
+    text-align: center;
+    background-color: #D6D6CA;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+  
+
+  
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+    background-color: #D9D9D9;  
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adjust values as needed */
+  }
+  
+  .faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight:600;
+    background-color: #E5E4E2;
+    width: 100%;
+    border-radius: 20px 10px 10px 0px; /* Rounds the top-left and bottom-left corners */
+    position: relative; /* Required for positioning the pseudo-element */
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 45px;
+  }
+  
+  .faq-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* Adjust the width of the green section */
+    height: 100%; /* Fills the height of the header */
+    background: #8A9A5B; /* Green color */
+    border-radius: 10px 10px 0 10px; /* Rounds the left corners */
+  }
+  .faq-answer {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: #D9D9D9;
+    position: relative;
+    padding-bottom: 10px;
+    min-height: 100px;
+    border-bottom-left-radius: 20px; /* Bottom-left radius */
+    border-bottom-right-radius: 20px; /* Bottom-right radius */
+  }
+  
+  .faq-toggle {
+    font-size: 30px;
+    color: #8A9A5B;
+    display: inline-block; /* Ensures that padding and border wrap around the text */
+    border: 1px solid #556b2f; /* Adjust the border thickness and color */
+    border-radius: 50%; /* Makes the border circular */
+    width: 40px; /* Set a width for the circular border */
+    height: 30px; /* Set a height for the circular border */
+    text-align: center; /* Centers the text within the circle */
+    line-height: 30px; /* Vertically centers the text within the circle */
+  }
+  
+  .faq-right p {
+    font-size: 15px;
+    margin-bottom: 15px;
+   
+  }
+  .faq-image {
+    width: 150px;
+    max-width: 600px;
+    height: 10;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  
+  .faq-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   background-color: #D9D9D9;;
+    
+  }
+
+  
+  .faq-submit {
+    width: 100px;
+    padding: 10px;
+    background-color: #8A9A5B;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  
+  .faq-submit:hover {
+    background-color: #556b2f;
+  }
+  .open .faq-toggle {
+    transform: rotate(45deg); /* Switches '+' to 'x' when open */
+  }
+  @media (max-width: 768px) {
+    .faq-left, .faq-right {
+      width: 100%; /* Full width on smaller screens */
+      margin-left: 0; /* Remove left margin */
+      margin-right: 0; /* Remove right margin */
+      margin-bottom: 20px; /* Add space between sections */
+    } .faq-container {
+        padding: 20px; /* Adjust padding for smaller screens */
+      }
+    }
+    @media (max-width: 768px) {
+        .faq-image {
+          max-width: 100%; /* Allow full width on smaller screens */
+        }
+      }
+      @media (max-width: 768px) {
+        .faq-item {
+            padding: 0px; /* Adjust padding for smaller screens */
+            margin: 5px 0; /* Adjust margin for smaller screens */
+           height: 100%;
+        }
+    }
+    @media (max-width: 768px) {
+        .faq-input {
+            padding: 8px; /* Slightly less padding for smaller screens */
+            margin-bottom: -30px; /* Adjust margin for smaller screens */
+            margin-left: 10px;
+        }
+    }  @media (max-width: 768px) {
+        .faq-answer {
+          max-width: 10%; /* Allow full width on smaller screens */
+        }
+      }
+      @media (max-width: 768px) {
+        .faq-header {
+         font-size:5px;
+         height: 40px;
+        }
+      }
+  

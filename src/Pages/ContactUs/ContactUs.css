@@ -1,0 +1,74 @@
+#contactusPage {
+    width: 100dvw;
+    height: 100dvh;
+    position: relative;
+    /* background-color: #c411a6; */
+}
+
+.CUTitle {
+    position: absolute;
+    top: 10%;
+
+}
+.CUTitle p:nth-child(1) {
+    font-size: 250%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.CUTitle p:nth-child(2) {
+    font-size: 150%;
+    text-align: center;
+    font-weight: 350;
+}
+
+#contactusPage .cards {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+
+}
+#contactusPage .card {
+    width: 20vw;
+    height: 30vh;
+    margin: 0 30px;
+    border-radius: 20px;
+}
+#contactusPage .card .card-body .icon #locIcon {
+    width: 4vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+#contactusPage .card .card-body .head {
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+#contactusPage .card .card-body .body {
+    font-size: 98%;
+    font-weight: 350;
+    text-align: center;
+}
+
+.map {
+    position: absolute;
+    bottom: 10%;
+    left: 18%;
+}
+.map #myMap {
+    width:65vw;
+    height: auto;
+}
+.footer {
+    background-color: #36454F;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+

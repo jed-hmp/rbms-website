@@ -1,0 +1,127 @@
+#aboutusPage {
+    width: 100vw;
+    height: 100vh;
+    background-color: #D6D6CA;
+    position: relative;
+    margin-top: -300px;
+}
+
+.greet {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    text-align: center;
+    width: 40vw;
+}
+.greet .greet-title {
+    font-size: 250%;
+    font-weight: bold;
+    width: 100%;
+}
+.greet .greet-body {
+    font-size: 120%;
+    width: 100%;
+    text-align: justify;
+}
+
+.mission-vision{
+    position: absolute;
+    bottom: 10%;
+    width: 60%;
+    right: 5%;
+}
+.mission-vision .vision .vision-title{
+    font-size: 250%;
+    font-weight: bold;
+}
+.mission-vision .mission .mission-title{
+    font-size: 250%;
+    font-weight: bold;
+}
+.mission-vision .vision .vision-body{
+    font-size: 120%;
+}
+.mission-vision .mission .mission-body{
+    font-size: 120%;
+}
+.AUBike {
+    position: absolute;
+    display: block;
+    right: 15%;
+    top: 15%;
+    #auBike {
+        width: 25vw;
+        height: auto;
+    }
+}
+.AUBiker {
+    position: absolute;
+    left: 10%;
+    bottom: 7%;
+    opacity: 1;
+    #auBiker {
+        width: 18vw;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .greet {
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        left: 10%;
+        width: 80vw;
+    }
+    .greet .greet-title {
+        font-size: 150%;
+        font-weight: bold;
+        width: 100%;
+    }
+    .greet .greet-body {
+        font-size: 85%;
+        width: 100%;
+    }
+
+    .mission-vision{
+        position: absolute;
+        bottom: 20%;
+        width: 90%;
+        left: 10%;
+    }
+    .mission-vision .vision .vision-title{
+        font-size: 150%;
+    }
+    .mission-vision .mission .mission-title{
+        font-size: 150%;
+    }
+    .mission-vision .vision .vision-body{
+        font-size: 100%;
+    }
+    .mission-vision .mission .mission-body{
+        font-size: 100%;
+    }
+    
+    .AUBike {
+        display: none;
+        position: absolute;
+        right: 15%;
+        top: 15%;
+        #auBike {
+            width: 25vw;
+            height: auto;
+        }
+    }
+    .AUBiker {
+        position: absolute;
+        left: 2%;
+        bottom: 25%;
+        opacity: .2;
+        #auBiker {
+            width: 85vw;
+            height: auto;
+        }
+    }
+}

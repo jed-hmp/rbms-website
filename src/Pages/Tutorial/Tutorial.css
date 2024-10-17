@@ -1,0 +1,67 @@
+#tutorialPage {
+    width: 100dvw;
+    height: 100dvh;
+    position: relative;
+    background-color: #D6D6CA;
+}
+.ytVid {
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    left: 2%;
+}
+.ytVid iframe {
+    width: 95%;
+    height: 45vh;
+}
+
+.steps{
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    width: 90%;
+    height: 55vh;
+}
+.steps .step-title {
+    font-weight: bolder;
+    font-size: 150%;
+}
+.steps .step-body .step-tuts {
+    margin-bottom: 15px;
+}
+.steps .step-body .step-tuts .stepNum {
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .ytVid {
+        position: absolute;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    .ytVid iframe {
+        width: 98%;
+        height: 22vh;
+    }
+
+    .steps{
+        position: absolute;
+        top: 40%;
+        left: 4.5%;
+        width: 90%;
+        height: 55vh;
+    }
+    .steps .step-title {
+        font-weight: bolder;
+        font-size: 115%;
+    }
+    .steps .step-body .step-tuts {
+        margin-bottom: 15px;
+    }
+    .steps .step-body .step-tuts .stepNum {
+        font-weight: bold;
+    }
+}

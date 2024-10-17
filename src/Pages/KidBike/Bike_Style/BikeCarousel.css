@@ -1,0 +1,74 @@
+.bike-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* Prevent overflow of images */
+    margin-top: 10;
+  }
+  
+  .bike-carousel-images {
+    display: flex;
+    transition: transform 0.6s ease; /* Change to 0.6s for a slower transition */
+    filter: drop-shadow(0 0px 1px rgba(1, 31, 9, 0.5)); /* Shadow effect */
+
+  }
+  
+  .carousel-bike {
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+    width: 300px; /* Set a fixed width for each bike item */
+    text-align: center; /* Center the text below the image */
+    margin: 0 10px; /* Add horizontal space (10px) between items */
+
+  }
+  .bike-item {
+    position: relative; /* Allows positioning of child elements */
+    display: flex; /* Aligns items in a row */
+    align-items: center; /* Centers items vertically */
+    margin-bottom: 20px;
+  }
+  
+  .carousel-image {
+    width: 100px; /* Adjust based on your design */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between image and label */
+  }
+  
+  .bike-label {
+    position: absolute; /* Position the label absolutely */
+    top: 5px; /* Adjust the vertical position */
+    right: 5px; /* Adjust the horizontal position */
+    font-size: 10px; /* Adjust the font size */
+    background-color: #36454F;
+    padding: 2px 5px; /* Optional padding */
+    border-radius: 5px; /* Optional rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    margin-right: -20px;
+    color: #B2BEB5;
+    
+  }
+  
+  .carousel-image {
+    width: 85%; /* Set image width to fill the container */
+    height: 150px; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: add some rounded corners */
+  
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 80px; /* Adjust the size of the arrows */
+  position: absolute; /* Position arrows at the sides */
+  z-index: 1; /* Bring arrows to front */
+  color: black; /* Set arrow color to black */
+}
+
+.carousel-control-prev {
+  left: 10px; /* Position left arrow */
+}
+
+.carousel-control-next {
+  right: 10px; /* Position right arrow */
+}

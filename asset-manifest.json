@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rbms-website/static/css/main.be48bb3a.css",
+    "main.js": "/rbms-website/static/js/main.380fce88.js",
+    "static/media/HBike.png": "/rbms-website/static/media/HBike.307f2e252b3520d00124.png",
+    "static/media/map.png": "/rbms-website/static/media/map.b2e5324e384de634c913.png",
+    "static/media/ky.bike.png": "/rbms-website/static/media/ky.bike.4cea1d8697282fbcf087.png",
+    "static/media/AUBiker.png": "/rbms-website/static/media/AUBiker.5631fadf1bdaa54fc6cc.png",
+    "static/media/AUBike.png": "/rbms-website/static/media/AUBike.ddefcd0123571227d8d0.png",
+    "static/media/kb.bike.png": "/rbms-website/static/media/kb.bike.f045beb896e8cd757aaf.png",
+    "static/media/kv.bike.png": "/rbms-website/static/media/kv.bike.09e818e8db8dd3906dd1.png",
+    "static/media/kr.bike.png": "/rbms-website/static/media/kr.bike.12b9f45afb6cd9cfe7b9.png",
+    "static/media/kp.bike.png": "/rbms-website/static/media/kp.bike.0f8b151d83743e66839e.png",
+    "static/media/FAQ.png": "/rbms-website/static/media/FAQ.cba8e719f26529f8b47a.png",
+    "index.html": "/rbms-website/index.html",
+    "main.be48bb3a.css.map": "/rbms-website/static/css/main.be48bb3a.css.map",
+    "main.380fce88.js.map": "/rbms-website/static/js/main.380fce88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be48bb3a.css",
+    "static/js/main.380fce88.js"
+  ]
+}
